@@ -15,7 +15,7 @@
 
 ● 特徵工程：ADASYN 過採樣、SMOTE 過採樣、正則化(Regularization)
 
-● 其它：模型集成堆疊法 (Stacking)、隨機搜尋 (RandomizedSearchCV)
+● 其它：模型集成堆疊法 (Stacking)、隨機搜尋 (RandomizedSearchCV)、網格搜索 (GridSearchCV)
 
 
 
@@ -33,4 +33,4 @@
 
 使用模型集成堆疊法 (Stacking)，基分類器使用 SVM、Logistic Regression 和隨機森林，
 
-最終分類器使用 Gradient Boosting 作為最終分類器，得到了最好的預測表現，雖然模型有些微過擬合的狀況，但仍然能在測試集中獲得各項評估指標都高於 0.85 以上的表現。
+最終分類器使用 Gradient Boosting 作為最終分類器，得到了最好的預測表現，雖然模型有些微過擬合的狀況，但仍然能在測試集中獲得各項評估指標都高於 0.97 以上的表現。
